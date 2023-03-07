@@ -17,6 +17,12 @@
     enable = true;
   };
 
+  programs.git = {
+    enable = true;
+    userName = "Joe Harrison";
+    userEmail = "joe@sigwinch.uk";
+  };
+
   programs.starship = {
     enable = true;
     settings = {
