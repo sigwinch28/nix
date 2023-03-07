@@ -28,6 +28,8 @@
   
     casks = [
       "discord"
+      "lulu"
+      "visual-studio-code"
     ];
   };
 
