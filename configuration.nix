@@ -18,16 +18,18 @@
   programs.fish.enable = true;
 
 
-  #homebrew = {
-  #  enable = true;
-  #
+  homebrew = {
+    enable = true;
+  
   #  onActivation = {
   #    autoUpdate = true;
   #    upgrade = true;
   #  };
-  #
-  #  casks = [ ];
-  #};
+  
+    casks = [
+      "discord"
+    ];
+  };
 
   users.users.joe = {
     home = "/Users/joe";
