@@ -36,6 +36,7 @@
       hostname.ssh_only = false;
 
       status.disabled = false;
+      sudo.disabled = false;
     };
   };
 }
