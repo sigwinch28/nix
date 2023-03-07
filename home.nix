@@ -13,7 +13,6 @@
     wget
   ];
 
-
   programs.fish = {
     enable = true;
   };
@@ -25,6 +24,8 @@
         success_symbol = "🍊";
         error_symbol = "💩";
       };
+
+      hostname.ssh_only = false;
 
       status.disabled = false;
     };
