@@ -33,6 +33,8 @@
     ];
   };
 
+  security.pam.enableSudoTouchIdAuth = true;
+
   users.users.joe = {
     home = "/Users/joe";
   };
