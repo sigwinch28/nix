@@ -29,6 +29,7 @@
     casks = [
       "discord"
       "lulu"
+      "podman-desktop"
       "visual-studio-code"
     ];
   };
