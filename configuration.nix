@@ -15,6 +15,8 @@
   };
 
   programs.bash.enable = false;
+  programs.fish.enable = true;
+
 
   #homebrew = {
   #  enable = true;
