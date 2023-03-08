@@ -17,6 +17,14 @@
 
   programs.fish = {
     enable = true;
+    functions = {
+      starship_transient_prompt_func = ''
+        starship module character
+      '';
+    };
+    interactiveShellInit = ''
+      enable_transience
+    '';
   };
 
   programs.git = {
