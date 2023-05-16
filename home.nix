@@ -2,6 +2,7 @@
   home.stateVersion = "22.11";
 
   home.packages = with pkgs; [
+    (aspellWithDicts (ds: [ ds.en ]))
     atkinson-hyperlegible
     coreutils
     curl
