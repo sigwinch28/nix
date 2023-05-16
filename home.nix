@@ -4,14 +4,18 @@
   home.packages = with pkgs; [
     (aspellWithDicts (ds: [ ds.en ]))
     atkinson-hyperlegible
+    butane
     coreutils
     curl
     gh
     git
+    go-jsonnet
     htop
     (iosevka-bin.override { variant = "ss08"; })
     k9s
     wget
+    xz
+    yq-go
   ];
 
   programs.direnv.enable = true;
