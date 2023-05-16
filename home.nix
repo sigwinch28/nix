@@ -8,11 +8,15 @@
     coreutils
     curl
     gh
+    ghidra
     git
     go-jsonnet
     htop
     (iosevka-bin.override { variant = "ss08"; })
     k9s
+    miniserve
+    podman
+    qemu
     wget
     xz
     yq-go
